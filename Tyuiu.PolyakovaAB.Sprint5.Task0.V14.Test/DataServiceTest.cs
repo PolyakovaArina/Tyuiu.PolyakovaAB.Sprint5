@@ -1,7 +1,7 @@
 ﻿using Mono.Cecil;
-using Tyuiu.PolyakovaAB.Sprint5.V14.Task0.V14.Lib;
+using Tyuiu.PolyakovaAB.Sprint5.Task0.V14.Lib;
 using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
-namespace Tyuiu.PolyakovaAB.Sprint5.V14.Task0.V14.Test
+namespace Tyuiu.PolyakovaAB.Sprint5.Task0.V14.Test
 {
     [TestClass]
     public sealed class DataServiceTest

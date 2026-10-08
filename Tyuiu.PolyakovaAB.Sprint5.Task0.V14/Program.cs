@@ -28,6 +28,7 @@ namespace Tyuiu.PolyakovaAB.Sprint5.Task0.V14
             int x = 3;
             string res = ds.SaveToFileTextData(x);
             Console.WriteLine(res);
+            Console.WriteLine(File.ReadAllText(res));
             Console.ReadKey();
 
         }

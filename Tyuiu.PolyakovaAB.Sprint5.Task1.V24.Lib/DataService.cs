@@ -16,7 +16,7 @@ namespace Tyuiu.PolyakovaAB.Sprint5.Task1.V24.Lib
             string sy;
             for (int i = startValue; i < stopValue; i++)
             {
-                y = Math.Round((3 * Math.Cos(i)) / (4 * i - 0.5) + Math.Sin(i) - 5 * i - 2, 3);
+                y = Math.Round((3 * Math.Cos(i)) / (4 * i - 0.5) + Math.Sin(i) - 5 * i - 2, 2);
                 sy = Convert.ToString(y);
                 if (i != stopValue)
                 {

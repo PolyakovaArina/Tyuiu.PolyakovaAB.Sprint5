@@ -1,12 +1,17 @@
 <Solution>
   <Folder Name="/Task0/">
-    <Project Path="Tyuiu.PolyakovaAB.Sprint5.Task0.V14.Lib/Tyuiu.PolyakovaAB.Sprint5.Task0.V14.Lib.csproj" />
-    <Project Path="Tyuiu.PolyakovaAB.Sprint5.Task0.V14.Test/Tyuiu.PolyakovaAB.Sprint5.Task0.V14.Test.csproj" />
-    <Project Path="Tyuiu.PolyakovaAB.Sprint5.Task0.V14/Tyuiu.PolyakovaAB.Sprint5.Task0.V14.csproj" />
+    <Project Path="../../../../../source/repos/Tyuiu.PolyakovaAB.Sprint5/Tyuiu.PolyakovaAB.Sprint5.Task0.V14.Lib/Tyuiu.PolyakovaAB.Sprint5.Task0.V14.Lib.csproj" />
+    <Project Path="../../../../../source/repos/Tyuiu.PolyakovaAB.Sprint5/Tyuiu.PolyakovaAB.Sprint5.Task0.V14.Test/Tyuiu.PolyakovaAB.Sprint5.Task0.V14.Test.csproj" />
+    <Project Path="../../../../../source/repos/Tyuiu.PolyakovaAB.Sprint5/Tyuiu.PolyakovaAB.Sprint5.Task0.V14/Tyuiu.PolyakovaAB.Sprint5.Task0.V14.csproj" />
   </Folder>
   <Folder Name="/Task1/">
-    <Project Path="Tyuiu.PolyakovaAB.Sprint5.Task1.V24.Lib/Tyuiu.PolyakovaAB.Sprint5.Task1.V24.Lib.csproj" Id="06ee3ca3-62d7-46f3-a41d-d5bcfc460968" />
-    <Project Path="Tyuiu.PolyakovaAB.Sprint5.Task1.V24.Test/Tyuiu.PolyakovaAB.Sprint5.Task1.V24.Test.csproj" Id="f4c97219-a44f-45a9-a1af-658cf64896c0" />
-    <Project Path="Tyuiu.PolyakovaAB.Sprint5.Task1.V24/Tyuiu.PolyakovaAB.Sprint5.Task1.V24.csproj" Id="8dfd7b1f-3845-40bd-a13d-7c649d3b2f92" />
+    <Project Path="../../../../../source/repos/Tyuiu.PolyakovaAB.Sprint5/Tyuiu.PolyakovaAB.Sprint5.Task1.V24.Lib/Tyuiu.PolyakovaAB.Sprint5.Task1.V24.Lib.csproj" Id="06ee3ca3-62d7-46f3-a41d-d5bcfc460968" />
+    <Project Path="../../../../../source/repos/Tyuiu.PolyakovaAB.Sprint5/Tyuiu.PolyakovaAB.Sprint5.Task1.V24.Test/Tyuiu.PolyakovaAB.Sprint5.Task1.V24.Test.csproj" Id="f4c97219-a44f-45a9-a1af-658cf64896c0" />
+    <Project Path="../../../../../source/repos/Tyuiu.PolyakovaAB.Sprint5/Tyuiu.PolyakovaAB.Sprint5.Task1.V24/Tyuiu.PolyakovaAB.Sprint5.Task1.V24.csproj" Id="8dfd7b1f-3845-40bd-a13d-7c649d3b2f92" />
+  </Folder>
+  <Folder Name="/Task2/">
+    <Project Path="Tyuiu.PolyakovaAB.Sprint5.Task2.V12.Lib/Tyuiu.PolyakovaAB.Sprint5.Task2.V12.Lib.csproj" Id="da902818-3ffd-4941-8882-e5eb9b862434" />
+    <Project Path="Tyuiu.PolyakovaAB.Sprint5.Task2.V12.Test/Tyuiu.PolyakovaAB.Sprint5.Task2.V12.Test.csproj" Id="0d3e3883-1b1d-42f5-808e-bc35a3136bfa" />
+    <Project Path="Tyuiu.PolyakovaAB.Sprint5.Task2.V12/Tyuiu.PolyakovaAB.Sprint5.Task2.V12.csproj" Id="04c09de3-7374-4730-bb39-a87b25983736" />
   </Folder>
 </Solution>

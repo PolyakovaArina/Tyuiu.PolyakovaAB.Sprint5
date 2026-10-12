@@ -6,8 +6,10 @@ namespace Tyuiu.PolyakovaAB.Sprint5.Task4.V27.Lib
     {
         public double LoadFromDataFile(string path)
         {
-            double x = Convert.ToDouble(File.ReadAllText(path));
-            double y = Math.Round((Math.Pow(x, 3) - 4 * x) / Math.Cos(x), 3);
+            string x = (File.ReadAllText(path));
+            string x1 = x.Replace(".", ",");
+            double x2 = Convert.ToDouble(x);
+            double y = Math.Round((Math.Pow(x2, 3) - 4 * x2) / Math.Cos(x2), 3);
             return y;
         }
     }

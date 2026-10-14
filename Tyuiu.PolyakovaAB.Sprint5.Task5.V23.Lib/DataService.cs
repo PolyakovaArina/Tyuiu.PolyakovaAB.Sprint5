@@ -11,7 +11,9 @@ namespace Tyuiu.PolyakovaAB.Sprint5.Task5.V23.Lib
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    double a = Convert.ToDouble(line);
+                    string a1 = Convert.ToString(line);
+                    string a2 = a1.Replace(".", ",");
+                    double a = Convert.ToDouble(a2);
                     if (a < res)
                     {
                         res = a;

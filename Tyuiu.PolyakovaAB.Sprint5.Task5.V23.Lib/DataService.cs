@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint5;
+﻿using System.Globalization;
+using tyuiu.cources.programming.interfaces.Sprint5;
 namespace Tyuiu.PolyakovaAB.Sprint5.Task5.V23.Lib
 {
     public class DataService : ISprint5Task5V23
@@ -11,12 +12,14 @@ namespace Tyuiu.PolyakovaAB.Sprint5.Task5.V23.Lib
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    string a1 = Convert.ToString(line);
-                    string a2 = a1.Replace(".", ",");
-                    double a = Convert.ToDouble(a2);
-                    if (a < res)
+                    string[] parts = line.Split(new char[] { ' ', '\t' });
+                    foreach (string part in parts)
                     {
-                        res = a;
+                        double a = double.Parse(part.Replace('.', ','));
+                        if (a < res)
+                        {
+                            res = a;
+                        }
                     }
                 }
             }

@@ -16,7 +16,7 @@ namespace Tyuiu.PolyakovaAB.Sprint5.Task5.V23.Lib
                     foreach (string part in parts)
                     {
                         double a = double.Parse(part.Replace('.', ','));
-                        if (a < res)
+                        if (a < res & a%1!=0)
                         {
                             res = a;
                         }
